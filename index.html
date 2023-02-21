@@ -15,52 +15,67 @@
 
   <body>
     <div class="container">
-      <h1>The Weather</h1>
-      <form id="city-form">
-        <input
-          type="search"
-          placeholder="Search city.."
-          autocomplete="off"
-          id="city-input"
-          class="form-control shadow-sm"
-        />
-        <br />
-        <input type="submit" value="Search" class="btn btn-info" />
-        <button type="button" class="btn btn-success">Current</button>
-      </form>
+      <div class="weathers">
+        <h1>The Weather</h1>
+        <form id="city-form">
+          <input
+            type="search"
+            placeholder="Search city.."
+            autocomplete="off"
+            id="city-input"
+            class="form-control shadow-sm"
+          />
+          <br />
+          <input type="submit" value="Search" class="btn btn-info" />
+          <button type="button" class="btn btn-success">Current</button>
+        </form>
 
-      <h1 id="city">Toronto CA</h1>
-      <ul>
-        <li class="day">Monday Morning Flurries ❄️</li>
-        <li id="dates"></li>
-        <li id="degree" class="degree"></li>
-      </ul>
-      <div class="row">
-        <div class="col">Tuesday</div>
-        <div class="col">Wednesday</div>
-        <div class="col">Thursday</div>
-        <div class="col">Friday</div>
-        <div class="col">Saturday</div>
-      </div>
+        <h1 id="city">Toronto CA</h1>
+        <ul>
+          <li class="day">Monday Morning Flurries ❄️</li>
+          <li id="dates"></li>
+          <li id="degree" class="degree"></li>
+        </ul>
+        <div class="col-6">
+          <ul>
+            <li>Percipitation 0%</li>
+            <li>Humidity 73%</li>
+            <li>Wind 2 km/h</li>
+          </ul>
+        </div>
+        <div class="row">
+          <div class="col">Tuesday</div>
+          <div class="col">Wednesday</div>
+          <div class="col">Thursday</div>
+          <div class="col">Friday</div>
+          <div class="col">Saturday</div>
+        </div>
 
-      <div class="row">
-        <div class="col">-5°</div>
-        <div class="col">-4°</div>
-        <div class="col">1°</div>
-        <div class="col">-6°</div>
-        <div class="col">-2°</div>
-      </div>
+        <div class="row">
+          <div class="col">-5°</div>
+          <div class="col">-4°</div>
+          <div class="col">1°</div>
+          <div class="col">-6°</div>
+          <div class="col">-2°</div>
+        </div>
 
-      <div class="row">
-        <div class="col">🌤️</div>
-        <div class="col">🌤️</div>
-        <div class="col">💨</div>
-        <div class="col">🌤️</div>
-        <div class="col">☁️</div>
+        <div class="row">
+          <div class="col">🌤️</div>
+          <div class="col">🌤️</div>
+          <div class="col">💨</div>
+          <div class="col">🌤️</div>
+          <div class="col">☁️</div>
+        </div>
       </div>
+      <a href="https://github.com/nooraabdou/weather-app" target="_blank"
+        >Git</a
+      >
+      <a
+        href="https://unique-squirrel-7d976g.csb.app/752e0d.netlify.app"
+        target="_blank"
+        >Netlify</a
+      >
       <script src="src/index.js"></script>
     </div>
-    <a href="https://github.com/nooraabdou/weather-app"></a>
-    <a href="https://unique-squirrel-7d976g.csb.app/752e0d.netlify.app"></a>
   </body>
 </html>
