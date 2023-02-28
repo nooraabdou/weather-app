@@ -10,22 +10,11 @@ h1 {
   color: #0dcaf0;
   margin-top: 10px;
 }
+
 .city {
-  font-family: Georgia, " Times New Roman ", Times, serif;
-  font-size: 25px;
-  text-align: center;
-}
-.day {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 25px;
   color: black;
 }
-.degree {
-  font-size: 40px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.row {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 25px;
-  color: #0dcaf0;
+.extras {
+  display: block;
+  margin: 0 auto;
 }
