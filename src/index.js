@@ -11,7 +11,7 @@ let days = [
   "Friday",
   "Saturday",
 ];
-currentDate.innerHTML = `${days[4]} ${hours}:${minutes}`;
+currentDate.innerHTML = `${days[2]} ${hours}:${minutes}`;
 
 function search(event) {
   event.preventDefault();

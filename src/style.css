@@ -9,12 +9,43 @@
 h1 {
   color: #0dcaf0;
   margin-top: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .city {
   color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 35px;
 }
-.extras {
-  display: block;
-  margin: 0 auto;
+
+.temp {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  left: 500px;
+  bottom: 45px;
+}
+.day {
+  position: relative;
+  right: 0px;
+  bottom: 85px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#extras {
+  position: relative;
+  right: 0px;
+  bottom: 75px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 17px;
+}
+
+.row {
+  color: #0dcaf0;
+  font-size: 22px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: relative;
+  bottom: 50px;
 }
