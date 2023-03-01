@@ -22,13 +22,13 @@ h1 {
   font-size: 50px;
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
-  left: 500px;
+  left: 490px;
   bottom: 45px;
 }
 .day {
   position: relative;
   right: 0px;
-  bottom: 85px;
+  bottom: 105px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 20px;
   font-weight: bold;
@@ -37,7 +37,7 @@ h1 {
 #extras {
   position: relative;
   right: 0px;
-  bottom: 75px;
+  bottom: 85px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 17px;
 }
@@ -48,4 +48,11 @@ h1 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   position: relative;
   bottom: 50px;
+}
+
+.cf {
+  position: relative;
+  left: 540px;
+  bottom: 100px;
+  font-size: 15px;
 }
