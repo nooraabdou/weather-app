@@ -28,5 +28,8 @@ cities.addEventListener("submit", search);
 
 function callbackApi(response) {
   let temperature = document.querySelector("#degree");
-  temperature.innerHTML = `${response.data.main.temp}°`;
+  temperature.innerHTML = Math.round(response.data.main.temp);
+  let description = document.querySelector("#clear");
+  description.innerHTML = response.data.weather[0].description;
 }
+console.log(response.data.weather[0].description);
