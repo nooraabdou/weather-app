@@ -55,5 +55,9 @@ h1 {
   position: relative;
   left: 500px;
   bottom: 120px;
-  font-size: 25px;
+  font-size: 20px;
+}
+
+#clear {
+  text-transform: capitalize;
 }
