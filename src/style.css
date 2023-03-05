@@ -22,7 +22,7 @@ h1 {
   font-size: 50px;
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
-  left: 450px;
+  left: 440px;
   bottom: 45px;
 }
 .day {
@@ -60,4 +60,13 @@ h1 {
 
 #clear {
   text-transform: capitalize;
+}
+
+#celsius-link {
+  color: black;
+  text-decoration: none;
+}
+
+#fahrenheit-link {
+  text-decoration: none;
 }

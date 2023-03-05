@@ -20,6 +20,9 @@ function callbackApi(response) {
   let humididtyElement = document.querySelector("#humidity");
   let cityElement = document.querySelector("#city");
   let iconElement = document.querySelector("#icon");
+
+  celsiusTemp = response.data.main.temp;
+
   temperature.innerHTML = Math.round(response.data.main.temp);
   description.innerHTML = response.data.weather[0].description;
   cityElement.innerHTML = response.data.name;
@@ -41,6 +44,26 @@ function handleSubmit(event) {
   let cityInputElement = document.querySelector("#city-input");
   search(cityInputElement.value);
 }
+function showFahrenheitTemp(event) {
+  event.preventDefault();
+  let temperature = document.querySelector("#degree");
+  let fahrenheitTemp = (celsiusTemp * 9) / 5 + 32;
+
+  temperature.innerHTML = Math.round(fahrenheitTemp);
+}
+
+function showCelsiusTemp(event) {
+  event.preventDefault();
+  let temperature = document.querySelector("#degree");
+  temperature.innerHTML = Math.round(celsiusTemp);
+}
+let celsiusTemp = null;
 
 let form = document.querySelector("#city-form");
 form.addEventListener("submit", handleSubmit);
+
+let fahrenheitLink = document.querySelector("#fahrenheit-link");
+fahrenheitLink.addEventListener("click", showFahrenheitTemp);
+
+let celsiusLink = document.querySelector("#celsius-link");
+celsiusLink.addEventListener("click", showCelsiusTemp);
